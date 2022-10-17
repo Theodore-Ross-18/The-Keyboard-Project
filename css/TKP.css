@@ -1,0 +1,184 @@
+body {
+    margin: 120px;
+    background-color: rgb(32, 31, 31);
+    color: rgb(255, 255, 255);
+  }
+footer {
+    font-family: monospace;
+}
+  h1 {
+      text-align: center;
+      font-family: monospace;
+  }
+  p {
+      text-align: center;
+      font-family: monospace;
+  }
+  button.esc {
+      width: 80px;
+      height: 80px;
+      color: aqua;
+      font-family: monospace;
+      border-color: rgb(107, 107, 107);
+      background-color: black;
+      border-width: 10px;
+      border-radius: 5px;
+      animation-name: rgb;
+      animation-duration: 50s;
+      animation-iteration-count: 3s infinite;
+      animation-direction: alternate;
+  }
+  a.reset {
+      color: aquamarine;
+      animation-name: rgb;
+      animation-duration: 50s;
+      animation-iteration-count: 3s infinite;
+      animation-direction: alternate;
+  }
+
+
+  button.spaces{
+      opacity: 0;
+  }
+  button.f {
+      width: 80px;
+      height: 80px;
+      color: aqua;
+      font-family: monospace;
+      border-color: rgb(107, 107, 107);
+      background-color: black;
+      border-width: 10px;
+      border-radius: 5px;
+      animation-name: rgb;
+      animation-duration: 50s;
+      animation-iteration-count: 3s infinite;
+      animation-direction: alternate;
+  }
+  @keyframes rgb {
+  0% {color: red;}
+  2% {color: snow;}
+  4% {color: green;}
+  6% {color: yellow;}
+  8% {color: springgreen;}
+  12% {color: blue;}
+  14% {color: blueviolet;}
+  16% {color: brown;}
+  18% {color: burlywood;}
+  22% {color: cornflowerblue;}
+  24% {color: salmon;}
+  26% {color: lightslategray;}
+  28% {color: lightyellow;}
+  32% {color: maroon;}
+  34% {color: lightpink;}
+  36% {color: lime;}
+  38% {color: honeydew;}
+  42% {color: hotpink;}
+  44% {color: gold;}
+  46% {color: aqua;}
+  48% {color: aquamarine;}
+  49% {color: red;}
+  50% {color: snow;}
+  51% {color: green;}
+  52% {color: yellow;}
+  53% {color: springgreen;}
+  54% {color: blue;}
+  55% {color: blueviolet;}
+  56% {color: brown;}
+  57% {color: burlywood;}
+  58% {color: cornflowerblue;}
+  59% {color: salmon;}
+  60% {color: lightslategray;}
+  61% {color: lightyellow;}
+  62% {color: maroon;}
+  63% {color: lightpink;}
+  64% {color: lime;}
+  65% {color: honeydew;}
+  66% {color: hotpink;}
+  67% {color: gold;}
+  68% {color: aqua;}
+  69% {color: aquamarine;}
+  100% {color: aquamarine;}
+}
+  
+pre.display {
+position: relative;
+font-size: 30px;
+font-family: monospace;
+width: 1000px;
+height: 200px;
+border-radius: 15px;
+margin: auto;
+padding: 20px;
+overflow: hidden;
+overflow-y: auto;
+border: 3px inset rgb(255, 255, 255);
+white-space: pre-wrap;
+}
+
+pre.display::before {
+content: '';
+display: inline-block;
+height: 100%;
+width: 100%;
+position: absolute;
+left: 0;
+top: 0;
+}
+
+button.space {
+    width: 80px;
+    height: 80px;
+    color: aqua;
+    font-family: monospace;
+    border-color: rgb(107, 107, 107);
+    background-color: black;
+    border-width: 10px;
+    border-radius: 5px;
+    animation-name: rgb;
+    animation-duration: 50s;
+    animation-iteration-count: 3s infinite;
+    animation-direction: alternate;
+}
+
+button.backspace {
+    width: 80px;
+    height: 80px;
+    color: aqua;
+    font-family: monospace;
+    border-color: rgb(107, 107, 107);
+    background-color: black;
+    border-width: 10px;
+    border-radius: 5px;
+    animation-name: rgb;
+    animation-duration: 50s;
+    animation-iteration-count: 3s infinite;
+    animation-direction: alternate;
+}
+
+button.caps {
+    width: 80px;
+    height: 80px;
+    color: aqua;
+    font-family: monospace;
+    border-color: rgb(107, 107, 107);
+    background-color: black;
+    border-width: 10px;
+    border-radius: 5px;
+    animation-name: rgb;
+    animation-duration: 50s;
+    animation-iteration-count: 3s infinite;
+    animation-direction: alternate;
+}
+
+.keyboard_wrapper .key .row button.caps,
+.keyboard_wrapper .key .row button.backspace {
+width: calc(50px * 1.6);
+}
+
+.keyboard_wrapper .key .row button.space {
+width: calc(50px * 9.4);
+}
+
+.keyboard_wrapper .key .row button {
+    cursor: pointer;
+    }
